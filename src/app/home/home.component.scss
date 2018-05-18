@@ -1,0 +1,101 @@
+.deleteButton:hover {
+  color: rgb(255, 128, 128);
+  cursor: pointer;
+}
+
+.title {
+  font-family: 'Goblin One';
+  font-size: 62px;
+}
+
+.sm {
+  font-family: 'Goblin One';
+  font-size: 20px;
+}
+
+.cards {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: green;
+}
+
+.txt.redText {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+.card {
+  font-family: 'Hind';
+  font-size: 20px;
+  background-color: green;
+  display: inline-block;
+  float: left;
+  min-width: 250px;
+  min-height: 70px;
+  margin: 10px;
+  transition: 1s;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+  padding-top: 20px;
+}
+
+.header {
+  transition: 0.5s ease;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 250px;
+}
+
+.card:hover {
+  transition: 0.5s ease;
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.header:focus-within {
+  background-color: rgba(0, 0, 0,0.6);
+  color: white;
+  transition: 0.5s ease;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+}
+
+.txt {
+  width: 200px;
+  height: 50px;
+}
+@media(max-width: 600px) {
+  .txt {
+    width: 250px;
+    height: 60px;
+  }
+
+  .btn {
+    width: 70%;
+    height: 100px;
+    margin: 20px 0;
+  }
+
+  .cards {
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
